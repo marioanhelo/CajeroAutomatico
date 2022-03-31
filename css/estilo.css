@@ -1,0 +1,36 @@
+.pantalla{
+    overflow:hidden
+}
+
+.header{
+    height: 5rem;
+    background-image: url(/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu,#menuMovimientos,#menuRetirar,#menuIngresar,#cancel{
+    display:none;
+}
+.montoConsulta{
+    height: 2rem;
+}
+.btn-menu{
+    width:10rem
+}
+
+#messageOK{
+    font-size: 12px;
+}
+
+.central-grid{
+    display: grid;
+    grid-template-columns: 202px 492px 462px;
+  grid-template-rows: 1fr;
+}
+.lista-movimientos{
+    list-style: none;
+}
+.lista-movimientos li{
+    text-decoration: none;
+    font-size: 12px;
+}
